@@ -1,36 +1,87 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AluraBooks</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header class="cabeçalho">
-            <div class="container"> 
-                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
-                <img src="img/Logo.svg" alt="Logo da AluraBooks" class="container__imagem">
-            </div>
-            <div class="container">
-                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
-                <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
-            </div>
-        </header>
-    </body>
-</html>.cabeçalho_menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    background-image: url("../img/Menu.svg");
-    background-repeat: no-repeat;
-}.cabeçalho_menu-hamburguer {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    background-image: url("../img/Menu.svg");
-    background-repeat: no-repeat;
-    background-position: center;
+body {
+    background-color: bisque;
+    font-family: Bai Jamjuree;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+#container {
+    display: flex;
+}
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+}
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+  height: 20rem;
+flex-grow: 1; 
+ flex-basis: calc(33% - 6rem);
+}
+container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center; 
+     background-color: aquamarine;  
+ height: 100%;
+}
+.cartao {
+    /*margin: 1rem 1rem;*/
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+}
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao__conteudo {
+    text-align: center;
+    /*background-color: aquamarine;*/
+    height: 100%;
 }
